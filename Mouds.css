@@ -1,0 +1,281 @@
+    header{
+    background-color: white;
+    border-bottom: 2px solid gray;
+    width: 100%;
+    height: 8vh;
+    position: sticky;
+    top: 0px;
+    z-index: 9;
+}
+body{
+    margin: 0px;
+}
+/*this style to float main links in right and give it margin from top and right and it have div tag in html */
+#main-link{
+    float: right;
+    margin-top: 15px;
+    margin-right: 230px;
+}
+/*this style to give home link a color*/
+#home{
+    color: turquoise;
+}
+/*this style to control all of main links in header*/
+.link{
+    text-decoration: none;
+    font-size: 13px;
+    padding: 14px;
+    font-family: calibri;
+    color: gray;
+    font-weight: bold;
+}
+/*this to give the logo in the header height and width and put it in its postion */
+#logo{
+    width: 10%;
+    height: 6vh;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+/* start style of background */
+#background{
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url("img/header.jpg");
+    width: 100%;
+    height: 91vh;
+    background-size: 100% 91vh;
+}
+/* start the desgin of all paragraphs on background */
+#main-pargraph{
+    position: absolute;
+    top: 240px;
+    left: 0px;
+    width: 100%;
+}
+/* start the design of paragraph  */
+#p1{
+    margin-top: 0px;
+    text-align: center;
+    font-family: calibri;
+    color: white;
+    font-size: 20px;
+}
+/* start the design of head 1 on background  */
+h1{
+    text-align: center;
+    font-family: calibri;
+    color: white;
+    font-size: 40px;
+}
+/* style of prevuew button*/
+#button1{
+    position: relative;
+    top: 50%;
+    left: 32%;
+    border: 2px solid white;
+    width: 15%;
+    height: 8vh;
+    background: unset;
+    font-family: calibri;
+    font-size: 15px;
+    color: white;
+    border-radius: 10px;
+}
+#button1:hover{
+    background-color: aqua;
+}
+/* end style of prevew button */
+/* style of get theme button*/
+#button2{
+    position: relative;
+    top: 50%;
+    left: 35%;
+    border: 2px solid blue;
+    width: 15%;
+    height: 8vh;
+    background-color: turquoise;
+    font-family: calibri;
+    font-size: 15px;
+    color: white;
+    border-radius: 10px;
+}
+#button2:hover{
+    background-color: unset;
+}
+/* end style of get theme button */
+/* start style of section that have a little history */
+#sec-pargraph{
+    background-color: #d1cece;
+    width: 100%;
+    height: 100vh;
+
+}
+/* end style of section that have a little history */
+/* start style of div that have a little history */
+#little-history{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    margin: auto 355px;
+}
+/* end style of div that have a little history */
+/* start style of h2 in div that have little history */
+h2{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+}
+/* end style of h2 in div that have little history */
+/* start style of p in div that have little history */
+#p2{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+}
+/* end style of p in div that have little history */
+/* start style of pencil box in div that have little history */
+#pencil-box{
+
+    background-color: white;
+    width: 358px;
+    height: 50vh;
+    float: left;
+    margin-top: 65px;
+    margin-left: 145px;
+}
+#pencil-box:hover{
+    transform: scale(1.1);
+    background-color: aqua;
+}
+#pen-img{
+    position: relative;
+    left: 44%;
+    top: 8%;
+    border-bottom: 5px solid turquoise;
+    padding-bottom: 25px;
+}
+#idea{
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+}
+#pen-paragraph{
+    text-align: center;
+    position: relative;
+    left: 1%;
+    top: 4%;
+}
+#plug-box{
+    display: inline-block;
+    background-color: white;
+    width: 358px;
+    height: 50vh;
+    float: left;
+    margin-top: 65px;
+    margin-left: 50px;
+}
+#plug-box:hover{
+    transform: scale(1.1);
+    background-color: aqua;
+}
+#plug-img{
+    position: relative;
+    left: 44%;
+    top: 8%;
+    border-bottom: 5px solid turquoise;
+    padding-bottom: 25px;
+}
+#work{
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+}
+#plug-paragraph{
+    text-align: center;
+    position: relative;
+    left: 1%;
+    top: 4%;
+}
+#screen-box{
+
+    display: inline-block;
+    background-color: white;
+    width: 358px;
+    height: 50vh;
+    float: left;
+    margin-top: 65px;
+    margin-left: 50px;
+}
+#screen-box:hover{
+    transform: scale(1.1);
+    background-color: aqua;
+}
+#screen-img{
+    position: relative;
+    left: 44%;
+    top: 8%;
+    border-bottom: 5px solid turquoise;
+    padding-bottom: 25px;
+}
+#deliver{
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+}
+#screen-paragraph{
+    text-align: center;
+    position: relative;
+    left: 1%;
+    top: 4%;
+}
+#l-paragraph{
+    position: relative;
+    top: 50px;
+   
+}
+#oca{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+#p3{
+    text-align: center;
+    margin: auto 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+
+}
+#last-images{
+    
+    width: 50%;
+    margin: auto;
+    margin-top: 180px;
+}
+.end-img{
+    float: left;
+    width: 20%;
+    margin: 10% 2.5%;
+}
+footer{
+    
+    background-color: turquoise ;
+    height: 10vh;
+    
+    
+	
+}
+#links-social{
+    margin-right: 400px;
+}
+.social-logo{
+    float: right;
+    width: 3%;
+    height: 5vh;
+    margin-top: 15px;
+    padding-right: 35px;
+}
